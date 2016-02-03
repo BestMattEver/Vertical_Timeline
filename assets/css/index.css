@@ -1,10 +1,30 @@
-body {position:absolute; width: 80%; margin-left: 10%; margin-top: 100px; background-color: #ffffff}
+body {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  background-color: #ffffff}
 
-section {background-color: #ffffff; height: auto; display: inline-block; overlow: auto; margin: 15px}
+section {
+  background-color: #ffffff;
+  height: auto;
+  display: inline-block;
+  overlow: auto;
+  margin: 13px}
 
-.line {background-color:#AFDCF8; width: 15px; height: 100%; float: right; margin-right: 20px}
+.line {
+  background-color:#AFDCF8;
+  width: 15px;
+  position:absolute;
+  left: 23%;
+  height:3000px;
+  float: right;
+  margin-right: 20px}
 
 section article {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 30px;
   display: block;
   position: relative;
   width: 70%;
@@ -12,18 +32,26 @@ section article {
   float: right;
   border-radius: 10px;
   box-sizing: border-box;
-  padding: 20px;}
+  padding: 50px;
+  margin-left: 10px;
+  font-family: sans-serif;}
 
 section aside {
   display: block;
+  color: #aaaaaa;
+  font-size: 15px;
+  text-align: right;
   position: relative;
-  width: 30%;
-  background-color: #ffff66;
-  float: left;
-  border-right: 10px;
-  border-color: #AFDCF8;
-  box-sizing: border-box;}
+  margin-top: 18px;
+  width: 30%%;
+  background-color: #ffffff;
+  float: left;}
+
+.time{
+  font-size: 35px;
+  color: #6CBFEE;
+}
 
 div.caret{position:absolute; display: inline; right: 99%; top: 5%; color: #6CBFEE; border: 5px #000000;}
 
-div.boxtitle {border-bottom: 1px solid; padding-bottom: 10px; margin-bottom:10px}
+div.boxtitle {border-bottom: 1px solid; font-weight: 900; font-size: 25px; padding-bottom: 10px; margin-bottom:10px}
