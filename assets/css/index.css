@@ -1,8 +1,13 @@
-body {position:absolute; width: 80%; margin-left: 10%; margin-top: 100px; background-color: #ff0000}
-.left {/* */}
+body {position:absolute; width: 80%; margin-left: 10%; margin-top: 100px; background-color: #ffffff}
 
-.line {background-color:orange; width: 5%; float: right; margin-right: 20px}
+section {background-color: #ffffff; height: auto; display: inline-block; overlow: auto; margin: -2px}
 
-article {display: inline; position: relative; width: 70%; background-color: #0000ff; float: right}
+.line {background-color:#AFDCF8; width: 15px; height: 100%; float: right; margin-right: 20px}
 
-aside {display: inline; position: relative; width: 30%; height: 100%; background-color: #ffffff; float: right}
+section article {display: block; position: relative; width: 70%; background-color: #6CBFEE; float: right; border-radius: 10px; box-sizing: border-box; padding-bottom:20px; padding-right:20px; padding-left:20px;}
+
+section aside {display: inline-block; width: 30%; background-color: #ffffff; float: right; border-right: 10px #AFDCF8; margin:5px; box-sizing: border-box;}
+
+div.caret{position:relative; display: inline; right: 7.5%; bottom: 45%; color: #6CBFEE; border: 1px #ffffff;}
+
+div.boxtitle {border-bottom: 1px solid; padding-bottom: 10px; margin-bottom:10px}
