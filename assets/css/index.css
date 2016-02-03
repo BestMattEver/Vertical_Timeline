@@ -1,13 +1,29 @@
 body {position:absolute; width: 80%; margin-left: 10%; margin-top: 100px; background-color: #ffffff}
 
-section {background-color: #ffffff; height: auto; display: inline-block; overlow: auto; margin: -2px}
+section {background-color: #ffffff; height: auto; display: inline-block; overlow: auto; margin: 15px}
 
 .line {background-color:#AFDCF8; width: 15px; height: 100%; float: right; margin-right: 20px}
 
-section article {display: block; position: relative; width: 70%; background-color: #6CBFEE; float: right; border-radius: 10px; box-sizing: border-box; padding-bottom:20px; padding-right:20px; padding-left:20px;}
+section article {
+  display: block;
+  position: relative;
+  width: 70%;
+  background-color: #6CBFEE;
+  float: right;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;}
 
-section aside {display: inline-block; width: 30%; background-color: #ffffff; float: right; border-right: 10px #AFDCF8; margin:5px; box-sizing: border-box;}
+section aside {
+  display: block;
+  position: relative;
+  width: 30%;
+  background-color: #ffff66;
+  float: left;
+  border-right: 10px;
+  border-color: #AFDCF8;
+  box-sizing: border-box;}
 
-div.caret{position:relative; display: inline; right: 7.5%; bottom: 45%; color: #6CBFEE; border: 1px #ffffff;}
+div.caret{position:absolute; display: inline; right: 99%; top: 5%; color: #6CBFEE; border: 5px #000000;}
 
 div.boxtitle {border-bottom: 1px solid; padding-bottom: 10px; margin-bottom:10px}
