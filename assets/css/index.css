@@ -52,6 +52,29 @@ section aside {
   color: #6CBFEE;
 }
 
+.circle1{
+  border-width: 5px;
+  border-color: #46A4DA;
+  color: #000000;
+  background-color: #AFDCF8;
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  padding-left:10px;
+  position: absolute;
+  left: 160px;
+  top: 315px;
+}
+.circle2{
+  color: #000000;
+  background-color: #AFDCF8;
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  position: absolute;
+  right: 50px;
+}
+
 div.caret{position:absolute; display: inline; right: 99%; top: 5%; color: #6CBFEE; border: 5px #000000;}
 
 div.boxtitle {border-bottom: 1px solid; font-weight: 900; font-size: 25px; padding-bottom: 10px; margin-bottom:10px}
