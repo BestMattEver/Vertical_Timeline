@@ -5,12 +5,16 @@ body {
   margin-top: 100px;
   background-color: #ffffff}
 
+
+
 section {
   background-color: #ffffff;
   height: auto;
   display: inline-block;
   overlow: auto;
   margin: 13px}
+
+
 
 .line {
   background-color:#AFDCF8;
@@ -20,6 +24,8 @@ section {
   height:3000px;
   float: right;
   margin-right: 20px}
+
+
 
 section article {
   color: #ffffff;
@@ -36,6 +42,8 @@ section article {
   margin-left: 10px;
   font-family: sans-serif;}
 
+
+
 section aside {
   display: block;
   color: #aaaaaa;
@@ -47,34 +55,40 @@ section aside {
   background-color: #ffffff;
   float: left;}
 
+
+
 .time{
   font-size: 35px;
   color: #6CBFEE;
 }
 
-.circle1{
-  border-width: 5px;
-  border-color: #46A4DA;
-  color: #000000;
+
+
+.circle1{z-index: 10;color: #000000;
   background-color: #AFDCF8;
   width: 3em;
   height: 3em;
   border-radius: 3em;
-  padding-left:10px;
-  position: absolute;
-  left: 160px;
-  top: 315px;
-}
-.circle2{
-  color: #000000;
-  background-color: #AFDCF8;
-  width: 3em;
-  height: 3em;
+ margin-left: 5px;  position: relative;
+  left: 20.5%;
+ top: 60px;}
+
+
+
+.circle2{z-index: 1;color: #6cbfee;
+  background-color: #6cbfee;
+  width: 4em;
+  height: 4em;
   border-radius: 3em;
-  position: absolute;
-  right: 50px;
-}
+ margin-left: 5px;  position: relative;
+  left: 19.5%;
+ top: 115px;}
+
+
+
 
 div.caret{position:absolute; display: inline; right: 99%; top: 5%; color: #6CBFEE; border: 5px #000000;}
+
+
 
 div.boxtitle {border-bottom: 1px solid; font-weight: 900; font-size: 25px; padding-bottom: 10px; margin-bottom:10px}
